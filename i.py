@@ -17,7 +17,7 @@ print(10//2)
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
 
-Output Formatting
+# Output Formatting
 
 age = 25
 print("My age is {}".format(age))
@@ -45,7 +45,7 @@ print(result)
 for i in range(5):
     print(i)
 
-While loop
+# While loop
 count = 0
 while count < 3:
     count += 1
@@ -77,7 +77,7 @@ print(arr)
 def greet(name):
     return "Hello, " + name + "!"
 
-Function call
+# Function call
 message = greet("Alice")
 print(message)
 
